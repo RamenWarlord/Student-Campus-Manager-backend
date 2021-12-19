@@ -1,3 +1,6 @@
+# Config w/ DB credentials
+configDB.js
+
 # Logs
 logs
 *.log
