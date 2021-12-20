@@ -13,6 +13,7 @@ const seedDB = async () => {
   const dummy_student = await Student.create({
     firstname: "Joe",
     lastname: "Shmo",
+    email: "JoeShmo@gmail.com",
   });
 
   await dummy_student.setCampus(dummy_campus);
