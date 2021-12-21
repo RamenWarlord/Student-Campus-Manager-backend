@@ -19,4 +19,4 @@ to first seed the database and then commented out to just have:
 
 await db.sync();
 
-to prevent reseeding/overriding the database with seed data.
+to prevent reseeding/overriding the database with seed data in future server starts.
