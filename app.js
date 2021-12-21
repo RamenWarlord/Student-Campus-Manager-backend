@@ -4,8 +4,9 @@ const seedDB = require("./database/utils/seedDB");
 
 // Instantiate express application
 const express = require("express");
+const cors = require("cors");
 const app = express();
-
+app.use(cors());
 //our database instance
 const db = require("./database");
 
